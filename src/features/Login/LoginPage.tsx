@@ -8,6 +8,7 @@ function Login() {
 
   return (
     <div>
+      <h1>Login</h1>
       <button onClick={handleLogin} className="bg-amber-600 rounded p-2 shadow">
         {" "}
         Se connecter{" "}
