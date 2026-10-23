@@ -1,0 +1,179 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "Wireless Mouse",
+      "price": 29.99,
+      "description": "Ergonomic wireless mouse with USB-C charging",
+      "category": "electronics",
+      "image": "https://fakestoreapi.noksha.dev/img/mouse.jpg",
+      "rating": {
+        "rate": 4.5,
+        "count": 120
+      }
+    },
+    {
+      "id": "2",
+      "title": "Mechanical Keyboard",
+      "price": 89.99,
+      "description": "RGB backlit mechanical keyboard with hot-swappable switches",
+      "category": "electronics",
+      "image": "https://fakestoreapi.noksha.dev/img/keyboard.jpg",
+      "rating": {
+        "rate": 4.8,
+        "count": 340
+      }
+    },
+    {
+      "id": "3",
+      "title": "USB-C Hub",
+      "price": 49.99,
+      "description": "7-in-1 USB-C hub with HDMI, SD card reader, and 100W PD",
+      "category": "electronics",
+      "image": "https://fakestoreapi.noksha.dev/img/hub.jpg",
+      "rating": {
+        "rate": 4.2,
+        "count": 87
+      }
+    },
+    {
+      "id": "4",
+      "title": "Cotton T-Shirt",
+      "price": 19.99,
+      "description": "100% organic cotton crew-neck t-shirt",
+      "category": "clothing",
+      "image": "https://fakestoreapi.noksha.dev/img/tshirt.jpg",
+      "rating": {
+        "rate": 4.1,
+        "count": 210
+      }
+    },
+    {
+      "id": "5",
+      "title": "Denim Jacket",
+      "price": 79.99,
+      "description": "Classic blue denim jacket with button front",
+      "category": "clothing",
+      "image": "https://fakestoreapi.noksha.dev/img/jacket.jpg",
+      "rating": {
+        "rate": 4.6,
+        "count": 64
+      }
+    },
+    {
+      "id": "6",
+      "title": "The Pragmatic Programmer",
+      "price": 39.99,
+      "description": "Your journey to mastery by David Thomas and Andrew Hunt",
+      "category": "books",
+      "image": "https://fakestoreapi.noksha.dev/img/book.jpg",
+      "rating": {
+        "rate": 4.9,
+        "count": 510
+      }
+    },
+    {
+      "id": "7",
+      "title": "Stainless Water Bottle",
+      "price": 24.99,
+      "description": "Insulated 750ml bottle keeps drinks cold for 24h",
+      "category": "home",
+      "image": "https://fakestoreapi.noksha.dev/img/bottle.jpg",
+      "rating": {
+        "rate": 4.4,
+        "count": 150
+      }
+    },
+    {
+      "id": "8",
+      "title": "Desk Lamp",
+      "price": 34.99,
+      "description": "LED desk lamp with adjustable brightness and color temperature",
+      "category": "home",
+      "image": "https://fakestoreapi.noksha.dev/img/lamp.jpg",
+      "rating": {
+        "rate": 4.3,
+        "count": 98
+      }
+    },
+    {
+      "id": "9",
+      "title": "asdasdasd",
+      "price": 50,
+      "category": "electronics",
+      "image": "http://hello.com",
+      "rating": {
+        "rate": 0,
+        "count": 0
+      }
+    },
+    {
+      "title": "Clavier finallement Super Tech",
+      "price": 26,
+      "category": "electronics",
+      "image": "http://Hello.com/2.jpg",
+      "rating": {
+        "rate": 4.3,
+        "count": 98
+      },
+      "id": "10"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "email": "admin@example.com",
+      "password": "password123",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "username": "alaa",
+      "email": "alaa@example.com",
+      "password": "password123",
+      "role": "user"
+    }
+  ],
+  "carts": [
+    {
+      "id": "1",
+      "userId": 2,
+      "items": [
+        {
+          "productId": 1,
+          "name": "Wireless Mouse",
+          "price": 29.99,
+          "quantity": 2
+        },
+        {
+          "productId": 6,
+          "name": "The Pragmatic Programmer",
+          "price": 39.99,
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "todos": [
+    {
+      "id": "1",
+      "todo": "Buy groceries",
+      "completed": false,
+      "userId": 2
+    },
+    {
+      "id": "2",
+      "todo": "Finish the React demo",
+      "completed": true,
+      "userId": 2
+    },
+    {
+      "id": "3",
+      "todo": "Read Pragmatic Programmer",
+      "completed": false,
+      "userId": 1
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
