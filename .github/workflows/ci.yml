@@ -9,7 +9,7 @@ jobs:
         with: { node-version: 22, cache: "npm" }
       - run: npm ci
       - run: npm run lint
-      - run: npm run test.
+      - run: npm run test
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps
       - run: npx playwright test # vos tests E2E d'hier !
